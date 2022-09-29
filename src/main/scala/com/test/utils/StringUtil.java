@@ -1,10 +1,9 @@
-package com.mininglamp.utils;
+package com.test.utils;
 
 import org.apache.commons.lang3.StringUtils;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.ArrayList;
 import java.util.Random;
 
 /**

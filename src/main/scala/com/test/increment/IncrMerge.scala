@@ -1,6 +1,6 @@
-package com.mininglamp.increment
+package com.test.increment
 
-import com.mininglamp.utils.{Constants, FileUtils, PropertyUtil}
+import com.test.utils.{Constants, FileUtils, PropertyUtil}
 import org.apache.hadoop.io.compress.GzipCodec
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.{SaveMode, SparkSession}

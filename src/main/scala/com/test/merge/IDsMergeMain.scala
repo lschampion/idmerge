@@ -1,6 +1,6 @@
-package com.mininglamp.merge
+package com.test.merge
 
-import com.mininglamp.utils.{Constants, FileUtils}
+import com.test.utils.{Constants, FileUtils}
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD

@@ -1,6 +1,6 @@
-package com.mininglamp.preprocess
+package com.test.preprocess
 
-import com.mininglamp.utils.{Constants, PropertyUtil, StringUtil}
+import com.test.utils.{Constants, PropertyUtil, StringUtil}
 import org.apache.hadoop.io.compress.GzipCodec
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession

@@ -1,4 +1,4 @@
-package com.mininglamp.utils
+package com.test.utils
 
 import java.io.File
 import java.nio.file.Files

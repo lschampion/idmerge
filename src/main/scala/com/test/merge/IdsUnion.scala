@@ -1,7 +1,7 @@
-package com.mininglamp.merge
+package com.test.merge
 
 import java.util.StringTokenizer
-import com.mininglamp.utils.{Constants, MD5Util, StringsRandom}
+import com.test.utils.{Constants, MD5Util, StringsRandom}
 import org.apache.hadoop.io.compress.GzipCodec
 import org.apache.spark.HashPartitioner
 import org.apache.spark.rdd.RDD

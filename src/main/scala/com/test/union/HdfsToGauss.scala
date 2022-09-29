@@ -1,6 +1,6 @@
-package com.mininglamp.union
+package com.test.union
 
-import com.mininglamp.utils.{Constants, JDBCUtil, PropertyUtil, StringUtil}
+import com.test.utils.{Constants, JDBCUtil, PropertyUtil, StringUtil}
 import org.apache.hadoop.io.compress.GzipCodec
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.{DataFrame, SaveMode, SparkSession}

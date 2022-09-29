@@ -1,4 +1,4 @@
-package com.mininglamp.utils
+package com.test.utils
 
 import java.sql.{Connection, DriverManager}
 import java.util.Properties
