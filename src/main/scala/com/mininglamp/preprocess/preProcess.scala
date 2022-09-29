@@ -29,6 +29,7 @@ object preProcess {
 
     val sparkConf = new SparkConf()
 //    val spark = SparkSession.builder().appName("Preprocess").enableHiveSupport().config(sparkConf).getOrCreate()
+//    测试需要在run configuration 添加参数：conf/test.properties tmp_data/preprocess
     val spark = SparkSession.builder().appName("Preprocess").master("local[*]").config(sparkConf).getOrCreate()
     val tableName = properties.getProperty("tableName")
 

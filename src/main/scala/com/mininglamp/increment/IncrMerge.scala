@@ -33,6 +33,7 @@ object IncrMerge {
 
 
     //    val spark = SparkSession.builder().config(new SparkConf().setAppName("IncrMerge")).enableHiveSupport().getOrCreate()
+    //  测试需要在run configuration 添加参数：tmp_data/result/history tmp_data/result/incr tmp_data/result/all
     val spark = SparkSession.builder().master("local[*]").config(new SparkConf().setAppName("IncrMerge")).getOrCreate() // 测试代码
     val sc = spark.sparkContext
     sc.setLogLevel("WARN")

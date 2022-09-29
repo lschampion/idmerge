@@ -23,6 +23,7 @@ object IDsMergeMain extends App {
     val threshould = args(2).toInt
 
 //    val sc = new SparkContext( new SparkConf().setAppName("IDsMerge"));
+//    //    测试需要在run configuration 添加参数：tmp_data/preprocess/merge/*.gz tmp_data/merge/ 10
     val sc = new SparkContext( new SparkConf().setMaster("local[*]").setAppName("IDsMerge"));  // 测试代码
     sc.setLogLevel("WARN")
     FileUtils.deleteDir(new File(idmergeOutput))

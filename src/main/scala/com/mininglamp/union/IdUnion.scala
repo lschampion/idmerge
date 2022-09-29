@@ -23,6 +23,7 @@ object IdUnion{
     val outPath = args(2)
 
 //    val spark = SparkSession.builder().appName("IdUnion").config(new SparkConf()).enableHiveSupport().getOrCreate()
+//  测试需要在run configuration 添加参数：tmp_data/preprocess/join/*.gz tmp_data/merge/result/*.gz tmp_data/result/incr
     val spark = SparkSession.builder().master("local[*]").appName("IdUnion").config(new SparkConf()).getOrCreate()  // 测试
     val sc = spark.sparkContext
     sc.setLogLevel("WARN")
