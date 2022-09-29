@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9847d08-19a4-4211-a252-c8e3eb4e8e1c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="/Volumes/adata/Maven_Repository" />
+        <option name="mavenHome" value="$USER_HOME$/opt/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/opt/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2Ejl3ajOJXSWsmNLj9Jr482SmRo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.IncrMerge">
+    <configuration name="GahqPreprocess" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.mininglamp.preprocess.GahqPreprocess" />
+      <module name="IDsMerge" />
+      <option name="PROGRAM_PARAMETERS" value="conf/test.properties tmp_data/preprocess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mininglamp.preprocess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HdfsToGauss" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.mininglamp.union.HdfsToGauss" />
+      <module name="IDsMerge" />
+      <option name="PROGRAM_PARAMETERS" value="tmp_data/result/all/*.gz conf/test.properties" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mininglamp.union.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IDsMergeMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.mininglamp.merge.IDsMergeMain" />
+      <module name="IDsMerge" />
+      <option name="PROGRAM_PARAMETERS" value="tmp_data/preprocess/merge/*.gz tmp_data/merge/ 10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mininglamp.merge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IdUnion" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.mininglamp.union.IdUnion" />
+      <module name="IDsMerge" />
+      <option name="PROGRAM_PARAMETERS" value="tmp_data/preprocess/join/*.gz tmp_data/merge/result/*.gz tmp_data/result/incr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mininglamp.union.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IncrMerge" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.mininglamp.increment.IncrMerge" />
+      <module name="IDsMerge" />
+      <option name="PROGRAM_PARAMETERS" value="tmp_data/result/history tmp_data/result/incr tmp_data/result/all" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mininglamp.increment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.IDsMergeMain" />
+      <item itemvalue="Application.IdUnion" />
+      <item itemvalue="Application.IncrMerge" />
+      <item itemvalue="Application.GahqPreprocess" />
+      <item itemvalue="Application.HdfsToGauss" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GahqPreprocess" />
+        <item itemvalue="Application.HdfsToGauss" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9847d08-19a4-4211-a252-c8e3eb4e8e1c" name="Changes" comment="" />
+      <created>1663116677933</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663116677933</updated>
+      <workItem from="1663116681106" duration="103000" />
+      <workItem from="1663116795267" duration="11393000" />
+      <workItem from="1663144594519" duration="635000" />
+      <workItem from="1663202969360" duration="13704000" />
+      <workItem from="1663307430375" duration="816000" />
+      <workItem from="1663922344995" duration="3688000" />
+      <workItem from="1663927400127" duration="95000" />
+      <workItem from="1663927536330" duration="246000" />
+      <workItem from="1664032534297" duration="6893000" />
+      <workItem from="1664067343577" duration="4824000" />
+      <workItem from="1664080483356" duration="2972000" />
+      <workItem from="1664111221806" duration="4119000" />
+      <workItem from="1664154331647" duration="7106000" />
+      <workItem from="1664274367470" duration="9917000" />
+      <workItem from="1664326636676" duration="785000" />
+      <workItem from="1664347340661" duration="3689000" />
+      <workItem from="1664356190560" duration="5027000" />
+      <workItem from="1664373266384" duration="2786000" />
+      <workItem from="1664421534792" duration="4869000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/mininglamp/union/IdUnion.scala</url>
+          <line>73</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/mininglamp/merge/IdsUnion.scala</url>
+          <line>129</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/mininglamp/union/IdUnion.scala</url>
+          <line>28</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
