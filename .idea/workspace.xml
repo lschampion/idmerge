@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9847d08-19a4-4211-a252-c8e3eb4e8e1c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/increment/IncrMerge.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/increment/IncrMerge.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/merge/IDsMergeMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/merge/IDsMergeMain.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/merge/IdsUnion.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/merge/IdsUnion.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/preprocess/preProcess.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/preprocess/preProcess.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/union/HdfsToGauss.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/union/HdfsToGauss.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/union/IdUnion.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/union/IdUnion.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/utils/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/utils/FileUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/utils/FileUtils.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/utils/JDBCUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/utils/JDBCUtil.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/utils/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/utils/MD5Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/utils/MyKyroSerializationUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/utils/MyKyroSerializationUtils.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/utils/PropertyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/utils/PropertyUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/utils/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/utils/StringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/utils/StringsRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/utils/StringsRandom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/utils/TimeBasedUUIDGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/utils/TimeBasedUUIDGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/test/increment/IncrMerge.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/increment/IncrMerge.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +170,7 @@
       <workItem from="1664347340661" duration="3689000" />
       <workItem from="1664356190560" duration="5027000" />
       <workItem from="1664373266384" duration="2786000" />
-      <workItem from="1664421534792" duration="8111000" />
+      <workItem from="1664421534792" duration="14123000" />
     </task>
     <servers />
   </component>
