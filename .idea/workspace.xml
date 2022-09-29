@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9847d08-19a4-4211-a252-c8e3eb4e8e1c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/increment/IncrMerge.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/mininglamp/increment/IncrMerge.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/merge/IDsMergeMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/mininglamp/merge/IDsMergeMain.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/preprocess/preProcess.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/mininglamp/preprocess/preProcess.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/union/IdUnion.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/mininglamp/union/IdUnion.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/increment/IncrMerge.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/increment/IncrMerge.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/merge/IDsMergeMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/merge/IDsMergeMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/merge/IdsUnion.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/merge/IdsUnion.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/preprocess/preProcess.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/preprocess/preProcess.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/union/HdfsToGauss.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/union/HdfsToGauss.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/union/IdUnion.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/union/IdUnion.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/utils/FileUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/utils/FileUtils.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/utils/JDBCUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/utils/JDBCUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/utils/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/utils/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/utils/MyKyroSerializationUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/utils/MyKyroSerializationUtils.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/utils/PropertyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/utils/PropertyUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/utils/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/utils/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/utils/StringsRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/utils/StringsRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/mininglamp/utils/TimeBasedUUIDGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/utils/TimeBasedUUIDGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -64,12 +74,12 @@
   </component>
   <component name="RunManager" selected="Application.IncrMerge">
     <configuration name="HdfsToGauss" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.mininglamp.union.HdfsToGauss" />
+      <option name="MAIN_CLASS_NAME" value="com.test.union.HdfsToGauss" />
       <module name="IDsMerge" />
       <option name="PROGRAM_PARAMETERS" value="tmp_data/result/all/*.gz conf/test.properties" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mininglamp.union.*" />
+          <option name="PATTERN" value="com.test.union.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +88,12 @@
       </method>
     </configuration>
     <configuration name="IDsMergeMain" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.mininglamp.merge.IDsMergeMain" />
+      <option name="MAIN_CLASS_NAME" value="com.test.merge.IDsMergeMain" />
       <module name="IDsMerge" />
       <option name="PROGRAM_PARAMETERS" value="tmp_data/preprocess/merge/*.gz tmp_data/merge/ 10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mininglamp.merge.*" />
+          <option name="PATTERN" value="com.test.merge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +102,12 @@
       </method>
     </configuration>
     <configuration name="IdUnion" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.mininglamp.union.IdUnion" />
+      <option name="MAIN_CLASS_NAME" value="com.test.union.IdUnion" />
       <module name="IDsMerge" />
       <option name="PROGRAM_PARAMETERS" value="tmp_data/preprocess/join/*.gz tmp_data/merge/result/*.gz tmp_data/result/incr" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mininglamp.union.*" />
+          <option name="PATTERN" value="com.test.union.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +116,12 @@
       </method>
     </configuration>
     <configuration name="IncrMerge" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.mininglamp.increment.IncrMerge" />
+      <option name="MAIN_CLASS_NAME" value="com.test.increment.IncrMerge" />
       <module name="IDsMerge" />
       <option name="PROGRAM_PARAMETERS" value="tmp_data/result/history tmp_data/result/incr tmp_data/result/all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mininglamp.increment.*" />
+          <option name="PATTERN" value="com.test.increment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +130,12 @@
       </method>
     </configuration>
     <configuration name="preProcess" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.mininglamp.preprocess.preProcess" />
+      <option name="MAIN_CLASS_NAME" value="com.test.preprocess.preProcess" />
       <module name="IDsMerge" />
       <option name="PROGRAM_PARAMETERS" value="conf/test.properties tmp_data/preprocess" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mininglamp.preprocess.*" />
+          <option name="PATTERN" value="com.test.preprocess.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +183,23 @@
       <workItem from="1664347340661" duration="3689000" />
       <workItem from="1664356190560" duration="5027000" />
       <workItem from="1664373266384" duration="2786000" />
-      <workItem from="1664421534792" duration="7273000" />
+      <workItem from="1664421534792" duration="8111000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -187,17 +208,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/com/mininglamp/union/IdUnion.scala</url>
+          <url>file://$PROJECT_DIR$/src/main/scala/com/test/union/IdUnion.scala</url>
           <line>74</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/com/mininglamp/merge/IdsUnion.scala</url>
+          <url>file://$PROJECT_DIR$/src/main/scala/com/test/merge/IdsUnion.scala</url>
           <line>129</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/com/mininglamp/union/IdUnion.scala</url>
+          <url>file://$PROJECT_DIR$/src/main/scala/com/test/union/IdUnion.scala</url>
           <line>29</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
