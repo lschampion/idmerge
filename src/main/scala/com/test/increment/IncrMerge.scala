@@ -99,19 +99,19 @@ object IncrMerge {
       //      (证件号码1 证件号码2 证件号码3...，右表id)
       (r1._1 + Constants.SPACE_DELIMITER + r2._1, id)
     }).map(x => {
-//      (证件号码1 证件号码2 证件号码3..., 右表id如果取不到则用左表id，此处表示incr和history有关联的数据的incr的id被替换成了history的id)
+      //      (证件号码1 证件号码2 证件号码3..., 右表id如果取不到则用左表id，此处表示incr和history有关联的数据的incr的id被替换成了history的id)
       (x._2._1, x._2._2.getOrElse(x._1))
     }).flatMap(x => {
       x._1.split(Constants.SPACE_DELIMITER).map(r => {
-//        (id,set(证件号码))
+        //        (id,set(证件号码))
         (x._2, Set(r))
       })
     }).union(rddAll.map(x => {
-//      （id,set(证件号码)）
+      //      （id,set(证件号码)）
       (x._2, Set(x._1))
-//      此处聚合的条件是incr 中的 id已经被history的id 替换掉了。
+      //      此处聚合的条件是incr 中的 id已经被history的id 替换掉了。
     })).reduceByKey((r1, r2) => {
-//      set.union(set) set集合取并集
+      //      set.union(set) set集合取并集
       r1 ++ r2
     }).map(x => {
       x._1 + ":" + x._2.mkString(Constants.SPACE_DELIMITER)

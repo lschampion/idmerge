@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9847d08-19a4-4211-a252-c8e3eb4e8e1c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/test/increment/IncrMerge.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/increment/IncrMerge.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -170,7 +172,9 @@
       <workItem from="1664347340661" duration="3689000" />
       <workItem from="1664356190560" duration="5027000" />
       <workItem from="1664373266384" duration="2786000" />
-      <workItem from="1664421534792" duration="14123000" />
+      <workItem from="1664421534792" duration="14238000" />
+      <workItem from="1664458399223" duration="484000" />
+      <workItem from="1664505125631" duration="19000" />
     </task>
     <servers />
   </component>
@@ -187,6 +191,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
